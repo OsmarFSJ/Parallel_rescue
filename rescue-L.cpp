@@ -344,9 +344,6 @@ int main(int ac, char **av)
 	      popul.step[popul.nstep] = model_dominant;
 	    }
 	 
-
-	  if( (model_dominant==ind_max) )
-	    t = tmax + 1;
 	  
 	  if( (popul.N==0) )
 	    t = tmax + 1;
